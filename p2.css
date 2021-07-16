@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+
+img{width: 150px; 
+    height: 100px;}
+body {
+    font-family:'Raleway', sans-serif;
+}
+
+
+.section1{
+
+    background-color: #f2f2f2;
+}
+
+aside{
+
+    background-color: #f2f2f2;
+}
+
+footer{
+    
+    background-color: #f2f2f2;
+}
