@@ -157,6 +157,7 @@ body {
     font-family: 'Raleway', 'sans serif';
 }
 
+
 .section1 { display: flex;
 justify-content: space-between;}
 
@@ -182,6 +183,7 @@ margin: auto;
 padding: none;
 
 }
+.canne { font-weight: bold;}
 
 .port {border:solid;
 border-color: white;
@@ -248,7 +250,8 @@ width: 100%;
 
 }
 
-.pop { margin-left: 30px;}
+.pop { margin-left: 30px;
+margin-bottom: 0px;}
 
  .matin {  display: flex;
 
@@ -372,7 +375,11 @@ flex-direction: column;}
 padding:auto;
                    }
                    footer{ display: flex;
-                justify-content: space-around;}
+                    justify-content: start;
+
+            
+            
+            background-color: #f2f2f2;}
    
     
 
@@ -390,7 +397,7 @@ padding:auto;
 
 .photoBord2 { 
     border-radius: 15px 0px 0px 15px;
-width: 170px;
-height: 170px;
+width: 160px;
+height: 160px;
 padding: 1px;
 }
