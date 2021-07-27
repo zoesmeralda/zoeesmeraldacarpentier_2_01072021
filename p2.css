@@ -1,8 +1,10 @@
+#blocpage{ width: 100%;}
+
 .logo { 
     
-    display: flex;
-justify-content: left;
+    display: inline-block;
 margin: 0px;
+margin-right: 0px;
 
 width: 20%;}
 
@@ -18,7 +20,10 @@ width: 20%;}
     padding: 0px;
     list-style-type: none;
     display: flex;
-     justify-content: flex-end;
+   position:absolute;
+   top:0px;
+   right:0px;
+     
     
     
     
@@ -116,12 +121,15 @@ border-color: #f2f2f2;
 
 .n1 {
     color: #0065fc;
-    font-weight: bold;
+   
+    text-decoration: none;
+    
 }
 
 .n2 {
     color: #0065fc;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .filtres {
@@ -150,6 +158,7 @@ margin:0px }
     padding: 10px;
 
 }
+
 
 
 
@@ -183,6 +192,8 @@ margin: auto;
 padding: none;
 
 }
+.cannebiere .fas { color: #0065FC;}
+
 .canne { font-weight: bold;}
 
 .port {border:solid;
@@ -202,6 +213,8 @@ margin: auto;
 padding: auto;
 
 }
+.mouettes .fas { color: #0065FC;}
+
 .mer  { border:solid;
     border-color: white;
 border-radius: 30px;
@@ -210,6 +223,9 @@ margin: auto;
 padding: auto;
 
 }
+
+.mer .fas { color: #0065FC;}
+
 .panier  { border:solid;
     border-color: white;
 border-radius: 30px;
@@ -218,6 +234,8 @@ margin: auto;
 padding: auto;
 
 }
+
+.panier .fas { color: #0065FC;}
 
 .amina  { border:solid;
     border-color: white;
@@ -400,4 +418,31 @@ padding:auto;
 width: 160px;
 height: 160px;
 padding: 1px;
+}
+
+@media all and (max-device-width: 480px)
+{
+    
+
+    .filtre {display: flex;
+    flex-direction: column;}
+    .filtres { display: flex;
+    flex-direction: column;
+}
+.sectionp1 { display: flex;
+flex-direction: column;
+max-width: 480px;}
+
+.sectionp2 { display: flex;
+flex-direction: column;}
+
+.section2 { display: flex;
+flex-direction: column;}
+
+
+
+
+footer { display: flex;
+flex-direction: column;
+}
 }
