@@ -188,7 +188,9 @@ justify-content: space-between;}
     height: 30%;
     background-color: #f2f2f2;
 }
-.cannebiere { border:solid;
+.cannebiere { line-height: 5px;
+    
+    border:solid;
     border-color: white;
 
 border-radius: 30px;
@@ -205,7 +207,9 @@ margin-bottom: 30px;
 
 
 
-.port {border:solid;
+.port { line-height: 5px;
+    
+    border:solid;
 border-color: white;
 border-radius: 30px;
 background-color: white;
@@ -216,7 +220,8 @@ margin-bottom: 30px;
 }
 .port .fas {color: #0065fc;}
 
-.mouettes  { border:solid;
+.mouettes  { line-height: 5px;
+    border:solid;
     border-color: white;
 border-radius: 30px;
 background-color: white;
@@ -227,7 +232,8 @@ margin-bottom: 30px;
 }
 .mouettes .fas { color: #0065FC;}
 
-.mer  { border:solid;
+.mer  {line-height: 5px; 
+    border:solid;
     border-color: white;
 border-radius: 30px;
 background-color: white;
@@ -237,7 +243,8 @@ padding: auto;
 
 .mer .fas { color: #0065FC;}
 
-.panier  { border:solid;
+.panier  {line-height: 5px;
+     border:solid;
     border-color: white;
 border-radius: 30px;
 background-color: white;
@@ -248,7 +255,8 @@ padding: auto;
 
 .panier .fas { color: #0065FC;}
 
-.amina  { border:solid;
+.amina  {line-height: 5px;
+     border:solid;
     border-color: white;
 border-radius: 30px;
 background-color: white;
@@ -264,6 +272,8 @@ text-align: left;
 width: 100%;
 
 }
+
+
 .sectionp2 {
     display: flex;
     flex-direction: column;
@@ -283,24 +293,29 @@ width: 100%;
 
 .sectionp2 .fas { color: #0065FC;}
 
+span .fas { color: grey;}
+
 .pop { margin-left: 30px;
 margin-bottom: 0px;}
 
- .matin {  display: flex;
+ .matin { line-height: 5px; 
+      display: flex;
 
      
     border:solid;
     border-color: white;
 border-radius: 30px;
 background-color: white;
-width: 400px;
+width: 85%;
 margin-top: 30px;
 margin-left: 30px;
 padding:none;
 
  }
 
- .eau { display: flex;
+ .eau { line-height: 5px;
+     display: flex;
+    
      border:solid;
     border-color: white;
 border-radius: 30px;
@@ -311,7 +326,8 @@ margin-left: 30px;
 padding:none;
 }
 
-.bleu { display: flex;
+.bleu {line-height: 5px;
+     display: flex;
      border:solid;
     border-color: white;
 border-radius: 30px;
@@ -436,6 +452,7 @@ width: 180px;
 height: 180px;
 padding: 1px;
 }
+
 
 @media all and (max-device-width: 480px)
 {
