@@ -40,10 +40,11 @@ border-width: thin;}
 .li2 li { padding: 20px;}
 button {
     margin-left: 40px;
+    
     border: solid;
-    border-top-right-radius: 10px;
+    border-top-right-radius: 10px; 
     border-bottom-right-radius: 10px;
-    border-color: #0065fc;
+border-color: #0065fc;
     background-color: #0065FC;
     font-weight: bold;
     color: white;
@@ -89,12 +90,13 @@ border-color: #f2f2f2;
     flex-direction: row;
 
     }
+    /*
     .filtres:hover{color: palevioletred;
     text-decoration: underline
     ;}
 
     .filtres .fas:hover{color:palevioletred;}
-
+*/
 .li1 li {
 
     padding-right: 15px;
@@ -194,6 +196,8 @@ background-color: white;
 height:auto;
 margin: auto;
 
+margin-bottom: 30px;
+
 
 
 }
@@ -205,7 +209,9 @@ margin: auto;
 border-color: white;
 border-radius: 30px;
 background-color: white;
-margin:auto
+margin:auto;
+padding:auto;
+margin-bottom: 30px;
 
 }
 .port .fas {color: #0065fc;}
@@ -216,6 +222,7 @@ border-radius: 30px;
 background-color: white;
 margin: auto;
 padding: auto;
+margin-bottom: 30px;
 
 }
 .mouettes .fas { color: #0065FC;}
@@ -226,7 +233,6 @@ border-radius: 30px;
 background-color: white;
 margin: auto;
 padding: auto;
-
 }
 
 .mer .fas { color: #0065FC;}
@@ -433,6 +439,9 @@ padding: 1px;
 
 @media all and (max-device-width: 480px)
 {
+    .button { border:solid;
+    border-color: #0065FC;
+}
     
 
     .filtre {display: flex;
@@ -452,7 +461,13 @@ flex-direction: column;}
 
 
 .section2 { display: flex;
-flex-direction: column;}
+flex-direction: column;
+width: 100%;}
+
+.pic1{min-width: 480px;
+height: 180px;}
+
+.pic2{min-width: 480px;}
 
 
 
