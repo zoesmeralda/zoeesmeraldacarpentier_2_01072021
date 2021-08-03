@@ -17,8 +17,11 @@
     font-size: 1.2em;
 
 }
-.blockNav1 :hover { border-top: #0065FC;
-color: #0065FC;}
+
+.blockNav1 :hover {
+    border-top: #0065FC;
+    color: #0065FC;
+}
 
 .menu {
 
@@ -43,9 +46,9 @@ color: #0065FC;}
     border-radius: 100px;
     width: auto;
     height: auto;
-    padding:5px 8px 5px 8px;
-    
-   
+    padding: 5px 8px 5px 8px;
+
+
 }
 
 .li2 li {
@@ -171,23 +174,23 @@ input {
 
 .filtres .fas {
     color: #0065fc;
-  
+
     border: solid;
     border-color: #deebff;
     background-color: #deebff;
     border-radius: 100px;
     padding: 10px;
-  }
-  
-  .filtres li:hover {
+}
+
+.filtres li:hover {
     color: aqua;
-    
-  }
-  
-  .filtres li:hover .fas {
+
+}
+
+.filtres li:hover .fas {
     color: aqua;
-  }
-  
+}
+
 
 
 
@@ -290,7 +293,7 @@ body {
 }
 
 .greystars .fas {
-    color:lightgrey;
+    color: lightgrey;
 }
 
 .pop {
@@ -314,7 +317,9 @@ body {
 
 }
 
-.coeureau{
+.stars {line-height: 100px;}
+
+.coeureau {
 
     line-height: 18px;
 }
@@ -430,16 +435,63 @@ footer {
     padding: 1px;
 }
 
+#boutonRD{
 
+    color: blue;
+    
+}
+
+#boutonRD .fas{
+
+    
+    display: none;
+}
 
 
 
 @media all and (max-device-width: 480px) {
+
+    .hebac{display: flex;
+    flex-direction: row;}
     .button {
         border: solid;
         border-color: #0065FC;
     }
 
+    #boutonR{
+
+        display: none;
+    }
+    #boutonRD .fas{
+
+        display: block;
+    }
+    
+    .titreiphone{
+        
+        margin-bottom: 50px;
+        margin-top: 50px;
+  
+    }
+
+    .titre2{
+        margin-top:30px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #0065fc;
+    }
+
+    .section1{
+
+        display:flex;
+        
+    }
+    
+    .sectionp1:nth-child(1){
+        order:2;
+    }
 
     .filtre {
         display: flex;
@@ -449,40 +501,57 @@ footer {
 
     .filtres {
         display: flex;
-        flex-direction: column;
-        padding-right: none;
+        flex-wrap: wrap;
+        padding-left: 15px;
+        
+    }
+
+    #familial{
+        margin-left: 30px;
     }
 
     .section1 {
         display: flex;
         flex-direction: column;
-    
+        width: 375px;
+
         margin: auto;
     }
-.sectionp1{ width: 100%;}
-    .sectionp2 {
-        width: 100%;
+
+    .sectionp1 {
+        width: 375px;
     }
+
+    .sectionp2 {
+        width: 375px;
+    }
+
+    
 
 
 
     .section2 {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 375px;
     }
 
     .pic1 {
-        width: 95%;
+        width: 370px;
+        height: 120px;
     }
 
     .pic2 {
-        min-width: 480px;
-    }
+        width: 370px;
+    height: 120px;}
+    
 
     .photoBord1 {
-        width: auto;
+        width: 370px;
+        height: 120px;
     }
+    .photoBord2{ width: 120px;
+    height: 120px;}
 
 
 
@@ -492,4 +561,3 @@ footer {
         flex-direction: column;
     }
 }
-
