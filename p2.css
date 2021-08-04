@@ -253,6 +253,7 @@ body {
     background-color: white;
     margin: auto;
     padding: auto;
+    margin-bottom: 30px;
 }
 
 .hebergementsp1 .fas {
@@ -317,9 +318,11 @@ body {
 
 }
 
-.stars {line-height: 100px;}
+#h3titre {
+    line-height: 18px;
+}
 
-.coeureau {
+.lh {
 
     line-height: 18px;
 }
@@ -435,62 +438,79 @@ footer {
     padding: 1px;
 }
 
-#boutonRD{
+#boutonRD {
 
     color: blue;
-    
+
 }
 
-#boutonRD .fas{
+#boutonRD .fas {
 
-    
+
     display: none;
 }
 
+a {
+    text-decoration: none;
+    color: #0065FC;
+}
 
 
 @media all and (max-device-width: 480px) {
 
-    .hebac{display: flex;
-    flex-direction: row;}
+    .formulaire {
+        width: 95%;
+    }
+
     .button {
         border: solid;
         border-color: #0065FC;
     }
 
-    #boutonR{
+    #boutonR {
 
         display: none;
     }
-    #boutonRD .fas{
+
+    #boutonRD .fas {
 
         display: block;
+        color: white;
+        background-color: #0065FC;
+        padding: none;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
     }
-    
-    .titreiphone{
-        
+
+    .titreiphone {
+        border: solid;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-bottom-color: #0065FC;
+
         margin-bottom: 50px;
         margin-top: 50px;
-  
+
     }
 
-    .titre2{
-        margin-top:30px;
+    .titre2 {
+        margin-top: 30px;
     }
 
-    a{
+    a {
         text-decoration: none;
-        color: #0065fc;
+        color: #0065FC;
     }
 
-    .section1{
+    .section1 {
 
-        display:flex;
-        
+        display: flex;
+
     }
-    
-    .sectionp1:nth-child(1){
-        order:2;
+
+    .sectionp1:nth-child(1) {
+        order: 2;
     }
 
     .filtre {
@@ -503,10 +523,10 @@ footer {
         display: flex;
         flex-wrap: wrap;
         padding-left: 15px;
-        
+
     }
 
-    #familial{
+    #familial {
         margin-left: 30px;
     }
 
@@ -526,7 +546,7 @@ footer {
         width: 375px;
     }
 
-    
+
 
 
 
@@ -543,15 +563,19 @@ footer {
 
     .pic2 {
         width: 370px;
-    height: 120px;}
-    
+        height: 120px;
+    }
+
 
     .photoBord1 {
         width: 370px;
         height: 120px;
     }
-    .photoBord2{ width: 120px;
-    height: 120px;}
+
+    .photoBord2 {
+        width: 150px;
+        height: 150px;
+    }
 
 
 
@@ -559,5 +583,27 @@ footer {
     footer {
         display: flex;
         flex-direction: column;
+    }
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionp1 {
+        width: 100%;
+    }
+
+    .sectionp2 {
+        width: 100%;
+    }
+
+    footer {
+        display:block;
+        justify-content: flex-start;
     }
 }
