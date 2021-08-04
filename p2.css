@@ -1,6 +1,6 @@
 img{object-fit: cover;}
 
-
+h2 { font-size: 1.17em;}
 
 #blocpage {
     width: 100%;
@@ -41,6 +41,9 @@ img{object-fit: cover;}
 
 
 }
+
+.info{margin-bottom: 30px;
+margin-top: 10px;}
 
 .info .fas {
     color: #0065FC;
@@ -568,7 +571,8 @@ a {
         width: 100%;
         margin:auto;
     }
-    .hebergementsp2 { 100%}
+    .hebergementsp2 { width: auto;
+    margin-right: 20px;}
 
 
 
