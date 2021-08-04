@@ -529,12 +529,6 @@ a {
         color: #0065FC;
     }
 
-    .section1 {
-
-        display: flex;
-
-    }
-
     .sectionp1:nth-child(1) {
         order: 2;
     }
@@ -559,20 +553,22 @@ a {
     .section1 {
         display: flex;
         flex-direction: column;
-        width: 375px;
+        width: 100%;
 
         margin: auto;
     }
 
     .sectionp1 {
-        width: 375px;
+        width: 100%;
         background-color: white;
         border-color: white;
     }
 
     .sectionp2 {
-        width: 375px;
+        width: 100%;
+        margin:auto;
     }
+    .hebergementsp2 { 100%}
 
 
 
