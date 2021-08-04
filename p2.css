@@ -1,6 +1,10 @@
-img{object-fit: cover;}
+img {
+    object-fit: cover;
+}
 
-h2 { font-size: 1.17em;}
+h2 {
+    font-size: 1.17em;
+}
 
 #blocpage {
     width: 100%;
@@ -15,16 +19,39 @@ h2 { font-size: 1.17em;}
     width: 20%;
 }
 
+.bri{
+    display: none;
+}
+
+
 .titre2 {
     margin-top: 0px;
     font-weight: 800;
-    font-size:1.4em; 
+    font-size: 1.4em;
 
 }
 
-.blockNav1 :hover {
-    border-top: #0065FC;
+#blockNav1:hover {
+    border-top: solid #0065FC;
     color: #0065FC;
+
+}
+
+#hebergement:hover {
+
+    color: #0065FC;
+}
+
+#activites:hover {
+
+    color: #0065FC;
+}
+
+
+#blockNav2:hover {
+    border-top: solid #0065FC;
+    color: red;
+
 }
 
 .menu {
@@ -42,8 +69,10 @@ h2 { font-size: 1.17em;}
 
 }
 
-.info{margin-bottom: 30px;
-margin-top: 10px;}
+.info {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
 
 .info .fas {
     color: #0065FC;
@@ -132,6 +161,7 @@ input {
     padding-right: 15px;
 
     margin: 3px;
+    margin-right: 15px;
     font-weight: bold;
 
     border: solid;
@@ -163,6 +193,7 @@ input {
 
 .filtres {
     font-weight: bold;
+
 
 }
 
@@ -232,14 +263,14 @@ body {
     line-height: 5px;
 
     border: solid;
-    border-color:white;
-    box-shadow: 6px 6px 6px #f2f2f2;
+    border-color: white;
+    box-shadow: 6px 6px 6px lightgrey;
 
     border-radius: 30px;
     background-color: white;
-    height: auto;
+    padding: auto;
     margin: auto;
-    
+
 
     margin-bottom: 30px;
 
@@ -261,11 +292,11 @@ body {
     border-color: white;
     border-radius: 30px;
     background-color: white;
-    box-shadow: 6px 6px 6px #f2f2f2;
+    box-shadow: 6px 6px 6px lightgrey;
     margin: auto;
     padding: auto;
     margin-bottom: 30px;
-    
+
 }
 
 .hebergementsp1 .fas {
@@ -313,9 +344,12 @@ body {
     margin-left: 30px;
     margin-bottom: 0px;
 }
- .pop .fas{ float: right;
-color: black;
-margin-right: 35px;}
+
+.pop .fas {
+    float: right;
+    color: black;
+    margin-right: 35px;
+}
 
 
 .hebergementsp2 {
@@ -386,13 +420,13 @@ margin-right: 35px;}
     justify-content: left;
     border: solid;
     border-color: white;
-    
-    
+
+
     border-radius: 10px;
     margin-right: 1px;
     margin-bottom: 10px;
     padding-bottom: 2px;
-    
+
     box-shadow: 6px 6px 6px #f2f2f2;
 
 }
@@ -407,18 +441,18 @@ margin-right: 35px;}
 
 .calanques {
     border: solid;
-    border-color:white;
-    
+    border-color: white;
+
     border-radius: 10px;
     margin-bottom: 10px;
-box-shadow: 6px 6px 6px #f2f2f2;
+    box-shadow: 6px 6px 6px #f2f2f2;
 
 }
 
 .activitésp {
     border: solid;
     border-color: white;
-    
+
     border-radius: 10px;
     box-shadow: 6px 6px 6px #f2f2f2;
     margin-bottom: 5px;
@@ -430,21 +464,23 @@ box-shadow: 6px 6px 6px #f2f2f2;
 
 footer {
     display: flex;
-    
- background-color: #f2f2f2;
+
+    background-color: #f2f2f2;
 }
 
 
 
 .apropos {
-   width: 30%;
+    width: 30%;
 }
 
 .nh {
-   width: 30%;
+    width: 30%;
 }
 
-.assistance { width: 30%;}
+.assistance {
+    width: 30%;
+}
 
 .photoBord1 {
     width: 300px;
@@ -475,8 +511,22 @@ footer {
 
 a {
     text-decoration: none;
-   
+
+
 }
+
+.hebergementsp1top,
+.hebergementsp1,
+.vieuxport,
+.activitésp,
+.calanques,
+.hebergementsp2{
+
+    text-decoration: none;
+    color: black;
+
+}
+
 
 
 
@@ -485,6 +535,7 @@ a {
 
     .formulaire {
         width: 95%;
+
     }
 
     .button {
@@ -509,22 +560,52 @@ a {
         border-top-right-radius: 10px;
     }
 
-    #blockNav1,#blockNav2 {
+    #blockNav1 {
         border: solid;
         border-top: transparent;
         border-left: transparent;
         border-right: transparent;
         border-bottom-color: #0065FC;
-
         margin-bottom: 50px;
-        margin-top: 50px;
+        margin-top: 60px;
+        margin-right: 0px;
+        
+        padding-right: 40px;
+
+
 
     }
 
-   
+    #blockNav2 {
+        border: solid;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-bottom-color: #f2f2f2;
+        margin-bottom: 50px;
+        margin-top: 60px;
+        margin-right: -95px;
+        padding-left: 85px;
+        padding-right: 0px;
+        
+        width: 100px;
+    
+
+    }
+
+
+.n2{
+    height: 10px;
+}
+
+
+
+
 
     .titre2 {
-        margin-top: 30px;
+        margin: 50px 0 0 0;
+        text-align: justify;
+
     }
 
     a {
@@ -569,10 +650,13 @@ a {
 
     .sectionp2 {
         width: 100%;
-        margin:auto;
+        margin: auto;
     }
-    .hebergementsp2 { width: auto;
-    margin-right: 20px;}
+
+    .hebergementsp2 {
+        width: auto;
+        margin-right: 20px;
+    }
 
 
 
@@ -609,6 +693,7 @@ a {
 
 
     footer {
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -616,10 +701,19 @@ a {
 
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+.formulaire{
+    width: 40%;
+}
 
+#boutonR{ position: absolute;
+position:right}
     .section1 {
         display: flex;
         flex-direction: column;
+    }
+
+    .li1 li{
+        margin-right: 0px;
     }
 
     .sectionp1 {
@@ -631,7 +725,15 @@ a {
     }
 
     footer {
-        display:block;
+        display: block;
         justify-content: flex-start;
     }
+
+
+
+
+
 }
+
+
+
