@@ -261,12 +261,13 @@ body {
 }
 
 .hebergementsp1top {
+    width: auto;
     line-height: 5px;
 
     border: solid;
     border-color: white;
     box-shadow: 6px 6px 6px lightgrey;
-    border-radius: 30px;
+    border-radius: 15px;
     background-color: white;
     
     margin: 0 15px 0 15px ;
@@ -292,10 +293,11 @@ body {
 
 
 .hebergementsp1 {
+    width: auto;
     line-height: 5px;
     border: solid;
     border-color: white;
-    border-radius: 30px;
+    border-radius: 15px;
     background-color: white;
     box-shadow: 6px 6px 6px lightgrey;
     margin: 0 15px 0 15px ;
@@ -502,7 +504,7 @@ footer {
 }
 
 .photoBord1 {
-    width: 300px;
+    width: 290px;
     height: 150px;
     border-radius: 15px 15px 0 0;
     padding: 1px;
@@ -548,9 +550,12 @@ a {
 
 
 
+    
 
 
-@media all and (max-width: 480px) {
+
+
+    @media  (min-width: 375px) and (max-width: 780px) {
 
     .formulaire {
         width: 95%;
