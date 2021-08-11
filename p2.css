@@ -687,17 +687,15 @@ a {
         margin: auto;
     }
 
-    .prix{
-
-        font-size: 1em;
-        text-indent: 10px;
-    }
     
-    .sectionp1 {
+    .sectionp1 {display: flex;
+        flex-direction: column;
         width: 100%;
         background-color: white;
         border-color: white;
     }
+
+    
 
     .sectionp2 {
         width: 100%;
