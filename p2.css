@@ -687,6 +687,12 @@ a {
         margin: auto;
     }
 
+    .prix{
+
+        font-size: 1em;
+        text-indent: 10px;
+    }
+    
     .sectionp1 {
         width: 100%;
         background-color: white;
@@ -698,6 +704,7 @@ a {
         margin: auto;
         border-radius: 0;
     }
+
 
     .hebergementsp2 {
         width: auto;
@@ -735,6 +742,8 @@ a {
         height: 150px;
     }
 
+    
+    
 
 
 
@@ -841,13 +850,13 @@ a {
 
     }
 
-.prix{
 
-    font-size: 1em;
-    text-indent: 10px;
-}
+    .prix{
 
-
+        font-size: 1em;
+        text-indent: 10px;
+    }
+    
 
 
 
