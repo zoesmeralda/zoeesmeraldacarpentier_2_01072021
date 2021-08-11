@@ -4,7 +4,6 @@ img {
 
 h2 {
     font-size: 1.08em;
-    text-indent: 10px;
 }
 
 #blocpage {
@@ -374,16 +373,18 @@ body {
 
 }
 
-.stars{ padding-left: 10px;
+.stars{
     position: absolute;
     bottom:auto;
     
     
 }
 
-.stars0{padding-left: 10px;}
-
-
+.stars1{
+    position: absolute;
+    bottom:auto;
+    
+}
 
 
 
@@ -416,7 +417,7 @@ body {
   
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    width: 320px;
+    width: 360px;
     height: 420px;
 }
 
@@ -425,8 +426,8 @@ body {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 
-    width: 320px;
-    height: 175px;
+    width: 360px;
+    height: 170px;
 }
 
 .activités {
@@ -455,8 +456,6 @@ body {
     display: flex;
     flex-direction: column;
     
-    
-    
 
 }
 
@@ -464,17 +463,11 @@ body {
 #frioul {
 
     margin-top: 7px;
-    padding-bottom: 2px;
 }
-
-#pomègues{padding-bottom: 2px;}
-
-#nd{padding-bottom: 2px;}
 
 #parc {
 
     margin-top: 7px;
-    padding-bottom: 2px;
 }
 
 
@@ -483,7 +476,7 @@ body {
     border-color: transparent;
     border: none;
     width: auto;
-padding-bottom: 2px;
+
 
     border-radius: 10px;
     margin-bottom: 10px;
@@ -520,7 +513,6 @@ footer {
 .nh {
     width: 30%;
 }
-
 
 .assistance {
     width: 30%;
@@ -576,21 +568,31 @@ a {
 
 
 
+
+
 @media (min-width: 375px) and (max-width: 767px) {
+    
+    body{
+        
+        padding: 0;
+        margin: 0 0 0 0 ;
+    }
 
     .formulaire {
         width: 95%;
-
+        
     }
 
     .button {
         border: solid;
         border-color: #0065FC;
+        
     }
 
     #boutonR {
 
         display: none;
+        
     }
 
     #boutonRD .fas {
@@ -598,11 +600,14 @@ a {
         display: block;
         color: white;
         background-color: #0065FC;
-
+        align-items: center;
         width: 30px;
         float: right;
         border-bottom-right-radius: 10px;
         border-top-right-radius: 10px;
+        padding-right: 0.6px;
+       
+        
     }
 
     #blockNav1 {
@@ -616,6 +621,7 @@ a {
         margin-right: 0px;
 
         padding-right: 40px;
+        
 
 
 
@@ -634,6 +640,7 @@ a {
         padding-right: 0px;
 
         width: 100px;
+        
 
 
     }
@@ -641,6 +648,7 @@ a {
 
     .n2 {
         height: 10px;
+        
     }
 
 
@@ -650,12 +658,14 @@ a {
     .titre2 {
         margin: 50px 0 0 0;
         text-align: justify;
+       
 
     }
 
     a {
         text-decoration: none;
         color: #0065FC;
+        
     }
 
     .sectionp1:nth-child(1) {
@@ -665,6 +675,7 @@ a {
     .filtre {
         display: flex;
         flex-direction: column;
+        
 
     }
 
@@ -672,6 +683,8 @@ a {
         display: flex;
         flex-wrap: wrap;
         padding-left: 15px;
+        width: 100vw;
+        
 
     }
 
@@ -683,26 +696,39 @@ a {
         display: flex;
         flex-direction: column;
         width: 100%;
-
-        margin: auto;
+        
+        
     }
 
-    
-    .sectionp1 {display: flex;
-        flex-direction: column;
-        width: 100%;
+    .section1 {
+        
         background-color: white;
         border-color: white;
     }
 
-    
+    .sectionp1{
 
-    .sectionp2 {
-        width: 100%;
-        margin: auto;
-        border-radius: 0;
+        background-color: white;
+        align-content: center;
+       
+        
     }
 
+    .section2{
+
+        margin-left: 5%;
+        width: 100vw;
+    }
+
+
+    .sectionp2 {
+        width: 100vw;
+        margin-left: 0;
+        border-radius: 0;
+        padding-right: 0px;
+        padding-left: 0px;
+        height: 100vh;
+    }
 
     .hebergementsp2 {
         width: auto;
@@ -710,6 +736,28 @@ a {
     }
 
 
+    .sectionp1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .marseille{
+
+        margin-bottom: 1540px;
+      
+       
+       
+    }
+
+    .hebergementsp1{
+        
+        width: 90vw;
+        
+        margin-left: 0px;
+
+    }
 
 
 
@@ -717,6 +765,11 @@ a {
         display: flex;
         flex-direction: column;
         width: 375px;
+        
+    }
+
+    .section2 a{
+        color: black;
     }
 
     .pic1 {
@@ -740,15 +793,24 @@ a {
         height: 150px;
     }
 
-    
-    
 
-
-
-    footer {
-        width: 100%;
+footer{
         display: flex;
         flex-direction: column;
+      
+}
+
+
+
+
+    .apropos, .nh, .assistance{
+        
+        display: flex;
+        flex-direction: column;
+        margin-left: 6%;
+        background-color: #f2f2f2;
+        width: 100vw;
+
     }
 }
 
@@ -848,16 +910,6 @@ a {
 
     }
 
-
-    .prix{
-
-        font-size: 1em;
-        text-indent: 10px;
-    }
-    
-
-
-
     .photoBord2 {
         width: 145px;
         height: 145px;
@@ -923,12 +975,37 @@ a {
     }
  
 
-.section2 a {
 
-    float: right;
 }
 
+@media only screen and (min-width : 1096px) and (max-width : 1456px) {
 
+.pic2{
+
+    width: 20vw;
+    
+
+}
+
+ .pic1{
+
+    width: 25vw;
+    height: 30vh;
+}
+
+.activitésvertical{
+    
+    margin-left: 1%;
+}
+
+.activitésp{
+
+    margin-top: 0.5%;
+    height: 17vh;
+}
+
+.vieuxport, .calanques{
+    height: 35vh;}
 
 
 
