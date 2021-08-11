@@ -366,7 +366,7 @@ body {
 
     border: solid;
     border-color: white;
-    border-radius: 30px;
+    border-radius: 15px;
     background-color: white;
     box-shadow: 6px 6px 6px lightgrey;
     width: 85%;
@@ -407,7 +407,7 @@ body {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 360px;
-    height: 420px
+    height: 420px;
 }
 
 .pic2 {
@@ -428,7 +428,7 @@ body {
     justify-content: left;
     border: solid;
     border-color: transparent;
-    width: 360px;
+    width: auto;
 
 
     border-radius: 10px;
@@ -460,7 +460,7 @@ body {
 .calanques {
     border: solid;
     border-color: transparent;
-    width: 360px;
+    width: auto;
     
 
     border-radius: 10px;
@@ -472,8 +472,8 @@ body {
 .activitésp {
     border: solid;
     border-color: transparent;
-    width: 360px;
-
+    width: auto;
+padding:0px;
     border-radius: 10px;
     box-shadow: 6px 6px 6px #f2f2f2;
     margin-bottom: 5px;
@@ -555,7 +555,7 @@ a {
 
 
 
-    @media  (min-width: 375px) and (max-width: 780px) {
+    @media  (min-width: 375px) and (max-width: 767px) {
 
     .formulaire {
         width: 95%;
@@ -725,9 +725,11 @@ a {
 }
 
 
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait)
+
+{
 .formulaire{
-    width: 40%;
+    width:40%;
 }
 
 #boutonR{ position: absolute;
@@ -769,6 +771,51 @@ a {
 
 
 }
+
+@media only screen and (min-width : 1025px) and (max-width : 1530px){
+
+.formulaire{ width:28%}
+#boutonR{ position: absolute;
+    right: auto;}
+
+.photoBord1{ 
+    
+        width: 210px;
+       height: 95px;
+    
+    
+    
+}
+.photoBord2 {width: 120px;
+height: 120px;}
+
+
+.pic1{width: 260px;
+    height: 340px;}
+
+    .pic2 {width: 260px;
+        height: 130px;}
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
