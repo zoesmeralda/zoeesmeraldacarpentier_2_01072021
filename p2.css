@@ -3,7 +3,7 @@ img {
 }
 
 h2 {
-    font-size: 1.17em;
+    font-size: 1.08em;
 }
 
 #blocpage {
@@ -19,7 +19,7 @@ h2 {
     width: 20%;
 }
 
-.bri{
+.bri {
     display: none;
 }
 
@@ -131,6 +131,10 @@ input {
 
 }
 
+.input1 {
+    outline: 0;
+}
+
 .formulaire {
     width: 23.5%;
     border: solid;
@@ -173,11 +177,13 @@ input {
 }
 
 .marseille {
-    padding-left: 32px;
 
-    
+    margin-top: -45px;
+    margin-bottom: 50spx;
 
-    
+    position: absolute;
+    padding-left: 50px;
+
     width: 100%;
     height: 30px;
 }
@@ -247,13 +253,15 @@ body {
 }
 
 .sectionp1 {
+    position: relative;
+    padding-top: 85px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-   
+    justify-content: space-around;
 
-   /* border: solid;
+
+    /* border: solid;
     border-color: #f2f2f2;*/
     border-radius: 20px;
 
@@ -262,8 +270,12 @@ body {
     background-color: #f2f2f2;
 }
 
-.sectionp1 a{ display: block;
-width: 27%;
+.sectionp1 a {
+    display: block;
+    width: 28%;
+    margin: 0 15px 0 15px;
+
+    margin-bottom: 30px;
 }
 
 
@@ -278,16 +290,15 @@ width: 27%;
 
 
 .hebergementsp1 {
-    width: 100%;
+
     line-height: 5px;
     border: 3px solid white;
     border-color: white;
     border-radius: 15px;
     background-color: white;
     box-shadow: 6px 6px 6px lightgrey;
-    margin: 0 15px 0 15px ;
     
-    margin-bottom: 30px;
+
 
 }
 
@@ -357,9 +368,25 @@ width: 27%;
     width: 85%;
     margin-top: 30px;
     margin-left: 30px;
-    
+    height: 162px;
+
 
 }
+
+.stars{
+    position: absolute;
+    bottom:auto;
+    
+    
+}
+
+.stars1{
+    position: absolute;
+    bottom:auto;
+    
+}
+
+
 
 #h3titre {
     line-height: 18px;
@@ -387,8 +414,7 @@ width: 27%;
 
 
 .pic1 {
-    border: solid;
-    border-color: transparent;
+  
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 360px;
@@ -396,8 +422,7 @@ width: 27%;
 }
 
 .pic2 {
-    border: solid;
-    border-color: transparent;
+    
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 
@@ -409,12 +434,14 @@ width: 27%;
     width: 100%;
 }
 
+
+
 .vieuxport {
     justify-content: left;
     border: solid;
     border-color: transparent;
-    width: auto;
 
+    border: none;
 
     border-radius: 10px;
     margin-right: 1px;
@@ -428,25 +455,28 @@ width: 27%;
 .activitésvertical {
     display: flex;
     flex-direction: column;
+    
 
 }
 
-#frioul{
+
+#frioul {
 
     margin-top: 7px;
 }
-#parc{
+
+#parc {
 
     margin-top: 7px;
 }
-
 
 
 .calanques {
     border: solid;
     border-color: transparent;
+    border: none;
     width: auto;
-    
+
 
     border-radius: 10px;
     margin-bottom: 10px;
@@ -457,14 +487,14 @@ width: 27%;
 .activitésp {
     border: solid;
     border-color: transparent;
+    border:none;
     width: auto;
-padding:0px;
+    padding: 0px;
     border-radius: 10px;
     box-shadow: 6px 6px 6px #f2f2f2;
     margin-bottom: 5px;
-    
-}
 
+}
 
 
 
@@ -498,7 +528,7 @@ footer {
 
 .photoBord2 {
     border-radius: 15px 0px 0px 15px;
-    width: 100%;
+    width: 160px;
     height: 160px;
     padding: 1px;
 }
@@ -526,7 +556,7 @@ a {
 .vieuxport,
 .activitésp,
 .calanques,
-.hebergementsp2{
+.hebergementsp2 {
 
     text-decoration: none;
     color: black;
@@ -535,12 +565,12 @@ a {
 
 
 
-    
 
 
 
 
-    @media  (min-width: 375px) and (max-width: 767px) {
+
+@media (min-width: 375px) and (max-width: 767px) {
 
     .formulaire {
         width: 95%;
@@ -562,7 +592,7 @@ a {
         display: block;
         color: white;
         background-color: #0065FC;
-        
+
         width: 30px;
         float: right;
         border-bottom-right-radius: 10px;
@@ -578,7 +608,7 @@ a {
         margin-bottom: 50px;
         margin-top: 60px;
         margin-right: 0px;
-        
+
         padding-right: 40px;
 
 
@@ -596,16 +626,16 @@ a {
         margin-right: -95px;
         padding-left: 85px;
         padding-right: 0px;
-        
+
         width: 100px;
-    
+
 
     }
 
 
-.n2{
-    height: 10px;
-}
+    .n2 {
+        height: 10px;
+    }
 
 
 
@@ -629,7 +659,7 @@ a {
     .filtre {
         display: flex;
         flex-direction: column;
-        
+
     }
 
     .filtres {
@@ -695,7 +725,7 @@ a {
     }
 
     .photoBord2 {
-        width: 100%;
+        width: 150px;
         height: 150px;
     }
 
@@ -710,34 +740,38 @@ a {
 }
 
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .formulaire {
+        width: 40%;
+    }
 
-{
-.formulaire{
-    width:40%;
-}
+    #boutonR {
+        position: absolute;
+        right: auto;
+    }
 
-#boutonR{ position: absolute;
-    right: auto;
-}
     .section1 {
         display: flex;
         flex-direction: column;
     }
 
-    .li1 li{
+    .li1 li {
         margin-right: 0px;
     }
 
-    .sectionp1 {display: flex;
+    .sectionp1 {
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-    
+
         justify-content: center;
-        width: 100%;
+        width: 90%;
     }
 
-    .hebergementsp1top, .hebergementsp1{margin-right: 50px;}
+    .hebergementsp1 {
+        margin-right: 50px;
+        width: 100%;
+    }
 
 
 
@@ -751,60 +785,120 @@ a {
         justify-content: flex-start;
     }
 
+    h2 {
+        font-size: 1.03em;
+    }
 
+    .photoBord1 {
 
-
-
-}
-
-@media only screen and (min-width : 1025px) and (max-width : 1530px){
-
-.formulaire{ width:28%}
-#boutonR{ position: absolute;
-    right: auto;}
-
-    .sectionp1{width: 67%;}
-
-    .sectionp2{width: 29%;}
-
-.photoBord1{ 
-    
         width: 100%;
-       height: 95px;
-    
-    
-    
-}
-.photoBord2 {width: 100%;
-height: 110px;}
+        height: 95px;
 
 
-.pic1{width: 260px;
-    height: 340px;}
 
-    .pic2 {width: 260px;
-        height: 130px;}
+    }
+
 
 }
+
+@media only screen and (min-width : 1022px) and (max-width : 1552px) {
+
+    .formulaire {
+        width: 28%
+    }
+
+    #boutonR {
+        position: absolute;
+        right: auto;
+    }
+
+    .sectionp1 {
+        width: 67%;
+        padding: 7% 1% 0 1%;
+    }
+
+    .sectionp1 a {
+        width: 28%;
+        padding: 0 0 0 0;
+    }
+
+    .sectionp2 {
+        width: 28%;
+    }
+
+    .photoBord1 {
+
+        width: 100%;
+        height: 130px;
+
+
+
+    }
+
+    .photoBord2 {
+        width: 145px;
+        height: 145px;
+        
+        
+    }
+
+
+    .hebergementsp1 {
+
+        width: 99%;
+
+
+    }
+
+
+
+    .hebergementsp2 {
+        width: 90%;
+        height: 147px;
+        margin-left: 5px;
+        padding: 0 0 0 0;
+    }
+
+
+    .marseille {
+
+        margin-top: -6%;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        position: absolute;
+        padding-left: 5%;
+
+        width: 100%;
+        height: 30px;
+    }
+
+    h2 {
+        font-size: 1.08em;
+    }
+
+
     
+    .stars{
+        position: absolute;
+        bottom:auto;
+      
+        
+        width: 90px;
+        height: 50px;
+        
+        
+    }
+    
+    .stars1{
+        position: absolute;
+        
+        width: 90px;
+        height: 50px;
+        padding: 0 0 0 0;
+        margin: 20px 0 0 0;
+        
+    }
+ 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
