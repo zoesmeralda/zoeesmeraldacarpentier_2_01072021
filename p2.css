@@ -4,6 +4,7 @@ img {
 
 h2 {
     font-size: 1.08em;
+    text-indent: 10px;
 }
 
 #blocpage {
@@ -373,18 +374,16 @@ body {
 
 }
 
-.stars{
+.stars{ padding-left: 10px;
     position: absolute;
     bottom:auto;
     
     
 }
 
-.stars1{
-    position: absolute;
-    bottom:auto;
-    
-}
+.stars0{padding-left: 10px;}
+
+
 
 
 
@@ -417,7 +416,7 @@ body {
   
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    width: 360px;
+    width: 320px;
     height: 420px;
 }
 
@@ -426,8 +425,8 @@ body {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 
-    width: 360px;
-    height: 170px;
+    width: 320px;
+    height: 175px;
 }
 
 .activités {
@@ -456,6 +455,8 @@ body {
     display: flex;
     flex-direction: column;
     
+    
+    
 
 }
 
@@ -463,11 +464,17 @@ body {
 #frioul {
 
     margin-top: 7px;
+    padding-bottom: 2px;
 }
+
+#pomègues{padding-bottom: 2px;}
+
+#nd{padding-bottom: 2px;}
 
 #parc {
 
     margin-top: 7px;
+    padding-bottom: 2px;
 }
 
 
@@ -476,7 +483,7 @@ body {
     border-color: transparent;
     border: none;
     width: auto;
-
+padding-bottom: 2px;
 
     border-radius: 10px;
     margin-bottom: 10px;
@@ -513,6 +520,7 @@ footer {
 .nh {
     width: 30%;
 }
+
 
 .assistance {
     width: 30%;
@@ -562,8 +570,6 @@ a {
     color: black;
 
 }
-
-
 
 
 
@@ -835,6 +841,16 @@ a {
 
     }
 
+.prix{
+
+    font-size: 1em;
+    text-indent: 10px;
+}
+
+
+
+
+
     .photoBord2 {
         width: 145px;
         height: 145px;
@@ -899,6 +915,14 @@ a {
         
     }
  
+
+.section2 a {
+
+    float: right;
+}
+
+
+
 
 
 }
