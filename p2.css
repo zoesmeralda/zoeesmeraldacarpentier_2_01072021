@@ -434,7 +434,7 @@ body {
     width: 100%;
 }
 
-
+.photos{ width: 100%}
 
 .vieuxport {
     justify-content: left;
@@ -982,15 +982,16 @@ footer{
 
 .pic2{
 
-    width: 20vw;
+    width: 246px;
+    height: 80px;
     
 
 }
 
  .pic1{
 
-    width: 25vw;
-    height: 30vh;
+    width: 240px;
+    height: 280px;
 }
 
 .activitésvertical{
