@@ -6,6 +6,14 @@ h2 {
     font-size: 1.08em;
 }
 
+/* modif */
+a{
+    color:black;
+}
+a:visited{
+    color:unset;
+}
+
 #blocpage {
     width: 100%;
 }
@@ -31,8 +39,9 @@ h2 {
 
 }
 
-#blockNav1:hover {
-    border-top: solid #0065FC;
+/* modif */
+#blockNav1:hover,#blockNav2:hover {
+    border-top: 2px solid #0065FC;
     color: #0065FC;
 
 }
@@ -47,10 +56,10 @@ h2 {
     color: #0065FC;
 }
 
-
+/* modif */
 #blockNav2:hover {
-    border-top: solid #0065FC;
-    color: red;
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
 
 }
 
@@ -67,6 +76,11 @@ h2 {
 
 
 
+}
+
+/* modif */
+.menu a{
+color:#505050;
 }
 
 .info {
@@ -176,10 +190,11 @@ input {
     border-radius: 50px;
 }
 
+
 .marseille {
 
-    margin-top: -45px;
-    margin-bottom: 50spx;
+    margin-bottom: 50px;
+    
 
     position: absolute;
     padding-left: 50px;
@@ -434,7 +449,7 @@ body {
     width: 100%;
 }
 
-.photos{ width: 100%}
+
 
 .vieuxport {
     justify-content: left;
@@ -455,13 +470,17 @@ body {
 .activitésvertical {
     display: flex;
     flex-direction: column;
-    
+    align-items: stretch;
+}
 
+#pomegue{
+    flex-grow:2;
+    height:230px;
 }
 
 
 #frioul {
-
+    flex-grow: 1;
     margin-top: 7px;
 }
 
@@ -472,8 +491,6 @@ body {
 
 
 .calanques {
-    border: solid;
-    border-color: transparent;
     border: none;
     width: auto;
 
@@ -485,8 +502,6 @@ body {
 }
 
 .activitésp {
-    border: solid;
-    border-color: transparent;
     border:none;
     width: auto;
     padding: 0px;
@@ -497,11 +512,15 @@ body {
 }
 
 
-
+/* modif */
 footer {
     display: flex;
 
     background-color: #f2f2f2;
+    margin-bottom:-8px;
+    margin-left:-8px;
+    padding-left:10px;
+    padding-right:10px;
 }
 
 
@@ -578,6 +597,15 @@ a {
         margin: 0 0 0 0 ;
     }
 
+    /* modif */
+    .afficher h3{
+        padding-left:40px;
+    }
+
+    .titre2{
+        padding-top:30px;
+    }
+
     .formulaire {
         width: 95%;
         
@@ -615,7 +643,7 @@ a {
         border-top: transparent;
         border-left: transparent;
         border-right: transparent;
-        border-bottom-color: #0065FC;
+        border-bottom-color: #f2f2f2;
         margin-bottom: 50px;
         margin-top: 60px;
         margin-right: 0px;
@@ -645,6 +673,10 @@ a {
 
     }
 
+    #blockNav1:hover, #blockNav2:hover{
+        border-top:2px solid white;
+    }
+
 
     .n2 {
         height: 10px;
@@ -670,6 +702,18 @@ a {
 
     .sectionp1:nth-child(1) {
         order: 2;
+    }
+
+    /* modif */
+    .sectionp1 a{
+        display:inline-block;
+        width:100%;
+        margin:0 15px 30px 15px;
+        padding-left:10px;
+    }
+
+    .hebergementsp1{
+        width:inherit;
     }
 
     .filtre {
@@ -722,7 +766,7 @@ a {
 
 
     .sectionp2 {
-        width: 100vw;
+        width: 105%;
         margin-left: 0;
         border-radius: 0;
         padding-right: 0px;
@@ -745,12 +789,14 @@ a {
 
     .marseille{
 
-        margin-bottom: 1540px;
-      
+        margin-bottom: 1550px;
+        margin-left: 0;
+        padding-left:30px;
        
        
     }
 
+    /*
     .hebergementsp1{
         
         width: 90vw;
@@ -758,6 +804,7 @@ a {
         margin-left: 0px;
 
     }
+    */
 
 
 
@@ -811,6 +858,17 @@ footer{
         background-color: #f2f2f2;
         width: 100vw;
 
+    }
+
+    /*
+    .li2, .menu{
+        width:105%;
+    }
+    */
+
+    #blockNav1:hover,#blockNav2:hover{
+        color: #0065FC;
+        border-bottom-color:#0065FC;
     }
 }
 
@@ -982,16 +1040,15 @@ footer{
 
 .pic2{
 
-    width: 246px;
-    height: 80px;
+    width: 20vw;
     
 
 }
 
  .pic1{
 
-    width: 240px;
-    height: 280px;
+    width: 25vw;
+    height: 30vh;
 }
 
 .activitésvertical{
