@@ -166,6 +166,7 @@ button {
     width: 100%;
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     margin-right: 10px;
 
