@@ -1,3 +1,15 @@
+/* reset css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+/*global*/
 img {
     object-fit: cover;
 }
@@ -15,7 +27,7 @@ a:visited{
 }
 
 #blocpage {
-    width: 100%;
+    margin:0 3%;
 }
 
 .logo {
@@ -34,16 +46,23 @@ a:visited{
 
 .titre2 {
     margin-top: 0px;
+    margin-bottom:5px;
     font-weight: 800;
     font-size: 1.4em;
 
 }
 
-/* modif */
+#blockNav1, #blockNav2 {
+    border-top:2px solid transparent;
+}
+
 #blockNav1:hover,#blockNav2:hover {
     border-top: 2px solid #0065FC;
-    color: #0065FC;
+    cursor:pointer;
+}
 
+#blockNav1:hover a,#blockNav2:hover a{
+    color: #0065FC;
 }
 
 #hebergement:hover {
@@ -85,7 +104,7 @@ color:#505050;
 
 .info {
     margin-bottom: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .info .fas {
@@ -145,6 +164,8 @@ input {
     border-top-left-radius: 10px;
     border-color: #f2f2f2;
     position:relative;
+    margin-top:15px;
+    margin-bottom:25px;
 }
 
 button {
@@ -201,10 +222,10 @@ button {
     
 
 
-    padding-left: 50px;
+    /*padding-left: 50px;*/
 
     width: 100%;
-    height: 30px;
+    /*height: 30px;*/
 }
 
 
@@ -216,6 +237,11 @@ button {
     color: #0065fc;
     font-weight: bold;
     text-decoration: none;
+    border-top:2px solid transparent;
+}
+
+.n2:hover{
+    cursor:pointer;
 }
 
 .filtres {
@@ -228,13 +254,14 @@ button {
 .filtre {
     display: flex;
     justify-content: start;
+    align-items: center;
 }
 
 .f1 {
     padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 30px;
-    margin: 0px
+    padding-right: 20px;
+    /*padding-top: 30px;*/
+    margin: 0px;
 }
 
 
@@ -335,7 +362,7 @@ body {
     text-align: left;
     padding-left: 25px;
     width: 100%;
-
+    padding-bottom:30px;
 }
 
 
@@ -386,12 +413,20 @@ body {
     border-radius: 15px;
     background-color: white;
     box-shadow: 6px 6px 6px lightgrey;
-    width: 85%;
+    width: 90%;
     margin-top: 30px;
     margin-left: 30px;
-    height: 162px;
+    /*height: 162px;*/
 
 
+}
+
+.hebergementsp2 > div{
+    padding-left:8px;
+}
+
+.hebergementsp1 h2, .hebergementsp1 p {
+    padding-left:6px;
 }
 
 .stars{font-size: 12px;
@@ -402,10 +437,14 @@ body {
 .stars1, .star{font-size: 12px;}
 
 
-h2{text-indent: 5px;}
+h2{
+    /*text-indent: 5px;*/
+    padding-bottom:7px;
+    padding-top:15px;
+}
 
 .prix{ font-size: 0.9em;
-    text-indent: 5px;
+    /*text-indent: 5px;*/
 line-height: 15px;
 margin-bottom: 20px;}
 
@@ -438,7 +477,7 @@ margin-bottom: 20px;}
   
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    width: 360px;
+    width: 370px;
     height: 420px;
 }
 
@@ -447,16 +486,25 @@ margin-bottom: 20px;}
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 
-    width: 360px;
-    height: 170px;
+    width: 370px;
+    height: 174px;
 }
+
 #activi{position: relative;}
 .activités {position: absolute;
     top:10px;
     width: 100%;
 }
 
+.section2{
+    margin-bottom:50px;
+    margin-top:50px;
+    padding-top:35px;
+}
 
+.section2 h2{
+    padding:15px;
+}
 
 .vieuxport {
     justify-content: left;
@@ -477,21 +525,21 @@ margin-bottom: 20px;}
 .activitésvertical {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    
+    /*height:350px;*/
+    /*align-items: stretch;*/
 }
 
-#pom{height: 85%;}
+#pom{height: 230px;}
 
 #pomègues{
-    flex-grow:2;
-    height:230px;
+    /*flex-grow:2;*/
+    /*height:60%;*/
 }
 
 
 #frioul {
-    flex-grow: 1;
-    margin-top: 7px;
+    /*flex-grow: 1;*/
+    /*margin-top: 7px;*/
 }
 #fri{height: 120px;}
 #parc {
@@ -517,7 +565,7 @@ margin-bottom: 20px;}
     padding: 0px;
     border-radius: 10px;
     box-shadow: 6px 6px 6px #f2f2f2;
-    margin-bottom: 5px;
+    /*margin-bottom: 5px;*/
 
 }
 
@@ -527,24 +575,28 @@ footer {
     display: flex;
 
     background-color: #f2f2f2;
+    /*
     margin-bottom:-8px;
     margin-left:-8px;
-    padding-left:10px;
-    padding-right:10px;
+    */
+    padding-left:3%;
+    padding-right:3%;
+    padding-top:0;
+    padding-bottom:15px;
 }
 
 
 
 .apropos {
-    width: 30%;
+    width: 33%;
 }
 
 .nh {
-    width: 30%;
+    width: 33%;
 }
 
 .assistance {
-    width: 30%;
+    width: 33%;
 }
 
 .photoBord1 {
@@ -607,9 +659,22 @@ a {
         margin: 0 0 0 0 ;
     }
 
+    #blocpage{
+        margin:0;
+    }
+
+    .logo,.formulaire,.filtre,.info,.titre2+p{
+        margin-left:3%;
+        margin-right:3%;
+    }
+    .titre2{
+        padding-left:3%;
+        padding-right:3%;
+    }
+
     /* modif */
     .afficher h3{
-        padding-left:40px;
+        padding-left:0;
     }
 
     .titre2{
@@ -617,7 +682,7 @@ a {
     }
 
     .formulaire {
-        width: 95%;
+        width: 90%;
         
     }
 
@@ -639,7 +704,7 @@ a {
         color: white;
         background-color: #0065FC;
         align-items: center;
-        width: 30px;
+        width: 43px;
         float: right;
         border-bottom-right-radius: 10px;
         border-top-right-radius: 10px;
@@ -648,40 +713,30 @@ a {
         
     }
 
-    #blockNav1 {
+    .menu{
+        position:inherit;
+    }
+
+    #blockNav1, #blockNav2 {
         border: solid;
         border-top: transparent;
         border-left: transparent;
         border-right: transparent;
+        /*margin-bottom: 50px;
+        margin-top: 60px;*/
+        width:50%;
+        text-align:center;
+    }
+
+    #blockNav1,#blockNav2 {
         border-bottom-color: #f2f2f2;
-        margin-bottom: 50px;
-        margin-top: 60px;
-        margin-right: 0px;
-
-        padding-right: 40px;
-        
-
-
-
     }
 
+    /*
     #blockNav2 {
-        border: solid;
-        border-top: transparent;
-        border-left: transparent;
-        border-right: transparent;
         border-bottom-color: #0065FC;
-        margin-bottom: 50px;
-        margin-top: 60px;
-        margin-right: -95px;
-        padding-left: 85px;
-        padding-right: 0px;
-
-        width: 100px;
-        
-
-
     }
+    */
 
     #blockNav1:hover, #blockNav2:hover{
         border-top:2px solid white;
@@ -690,7 +745,9 @@ a {
 
     .n2 {
         height: 10px;
-        
+        position:absolute;
+        top:0;
+        right:0;
     }
 
 
@@ -698,9 +755,10 @@ a {
 
 
     .titre2 {width: 100%;
-        margin: 50px 0 0 0;
-        text-align: justify;
-       
+        margin: 0;
+        text-align: left;
+        padding-bottom:12px;
+        padding-top:10px;
 
     }
 
@@ -726,25 +784,33 @@ a {
         width:inherit;
     }
 
-    .filtre {width: 100%;
+    .filtre {width: 95%;
         display: flex;
         flex-direction: column;
         
 
     }
 
+    .f1{
+        width:100%;
+        padding-left:5px;
+        padding-bottom:10px;
+    }
+
     .filtres {
         display: flex;
         flex-wrap: wrap;
-        padding-left: 15px;
+        /*padding-left: 15px;*/
         width: 100%;
         
 
     }
 
+    /*
     #familial {
         margin-left: 30px;
     }
+    */
 
     .section1 {
         display: flex;
@@ -777,6 +843,9 @@ a {
         border-radius: 0;
         padding-right: 0px;
         padding-left: 0px;
+        padding-top:30px;
+        padding-left:3%;
+        padding-bottom:40px;
     
     }
 
@@ -818,26 +887,44 @@ a {
     }
     */
 
-
+.section2{
+    padding:50px 0 0 0;
+    
+}
 
     #activi { position: relative;
         display: flex;
         flex-direction: column;
         width: 100%;
         padding-top: 15%;
-        
+        margin-top: 60px;
     }
     .activités{position: absolute;
     top:0px}
-    .activitésp{padding-bottom: 1px;
-    margin-bottom: 5%;}
-#pomègues{ padding-bottom: 1px;
+    
+    .activités h1{
+        padding-left:3%;
+        /*padding-top:100px;*/
+    }
+    .activitésp{/*padding-bottom: 1px;*/
+    /*margin-bottom: 5%;*/}
+#pomègues{ /*padding-bottom: 1px;*/
     margin-bottom: 5%;
+}
+#frioul,#nd{
+    margin-bottom:5%;
 }
 #pom{width:100% ;
 height:180px ;}
 #fri{height: 180px;}
 .vieuxport, .calanques{margin-bottom: 5%;}
+
+.vieuxport, .calanques, .activitésp{
+    width:94%;
+    margin-left:3%;
+    margin-right:3%;
+}
+
     .section2 a{
         color: black;
     }
@@ -867,8 +954,8 @@ height:180px ;}
 footer{
         display: flex;
         flex-direction: column;
-        width: 95%;
-      
+        width: 100%;
+        margin:0;
 }
 
 
@@ -897,19 +984,27 @@ footer{
 }
 
 
-@media only screen and (min-width : 768px) and (max-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1183px) {
     .formulaire {
-        width: 35%;
+        width: 45%;
     }
 
     #boutonR {
         position: absolute;
-        right: auto;
+        right: 0;
     }
 
     .section1 {
         display: flex;
         flex-direction: column;
+    }
+
+    .marseille{
+        padding-left:30px;
+    }
+
+    #pop{
+        padding-top:20px;
     }
 
     .li1 li {
@@ -922,7 +1017,7 @@ footer{
         flex-wrap: wrap;
 
         justify-content: center;
-        
+        padding-top:20px;
     }
 
     .hebergementsp1 {
@@ -935,6 +1030,7 @@ footer{
     .sectionp2 {
         width: 100%;
         margin-top: 20px;
+        padding-bottom:40px;
     }
     #activi{position: relative;
         padding-top: 8%;
@@ -942,12 +1038,25 @@ footer{
         display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-justify-content: space-evenly;}
+justify-content: space-evenly;
+margin-top:60px;
+}
 .activités{position: absolute;
 top: 0px;}
-#pomègues{margin-bottom: 5%;
-padding-bottom: 5%;}
-#frioul, #nd, #parc{padding-bottom: 5%;}
+.activités h1{
+    padding-left:3%;
+}
+.activitésvertical, .calanques, .vieuxport {
+    width: 45%;
+}
+.pic1, .pic2 {
+    width: 100%;
+}
+#pomègues{margin-bottom: 5%;}
+#frioul, #nd, #parc{/*padding-bottom: 5%;*/}
+#nd{
+    margin-bottom:12px;
+}
     footer {
         display:flex;
         flex-direction: row;
@@ -970,7 +1079,7 @@ padding-bottom: 5%;}
 
 }
 
-@media only screen and (min-width : 1025px) /* and (max-width : 1400px)*/ {
+@media only screen and (min-width : 1184px) /* and (max-width : 1400px)*/ {
 
     h2{line-height: 10px;}
 
@@ -986,7 +1095,7 @@ padding-bottom: 5%;}
 
     .sectionp1 {
         width: 65%;
-        padding: 7% 1% 0 1%;
+        padding: 20px 1% 0 1%;
     }
 
     .sectionp1 a {
@@ -996,6 +1105,8 @@ padding-bottom: 5%;}
 
     .sectionp2 {
         width: 30%;
+        padding-top:10px;
+        padding-bottom:20px;
     }
 
     .photoBord1 {
@@ -1009,7 +1120,7 @@ padding-bottom: 5%;}
 
     .photoBord2 {
         width: 145px;
-        height: 145px;
+        height: 100%;
         
         
     }
@@ -1027,26 +1138,29 @@ padding-bottom: 5%;}
     .hebergementsp2 {
         width: 90%;
         height: 147px;
-        margin-left: 5px;
+        /*margin-left: 5px;*/
         padding: 0 0 0 0;
     }
 
 
     .marseille {
 
-        margin-top: -6%;
-        margin-bottom: 50px;
-        margin-left: 50px;
-        position: absolute;
-        padding-left: 5%;
+        /*margin-top: -6%;*/
+        margin-bottom: 30px;
+        margin-left:30px;
+        /*margin-left: 50px;*/
+        /*position: absolute;*/
+        /*padding-left: 5%;*/
 
         width: 100%;
         height: 30px;
     }
 
+    
     h2 {
-        font-size: 1.08em;
+        font-size: 1.03em;
     }
+    
 
 
     
@@ -1088,15 +1202,15 @@ margin-top:-1.3% ;
     {width: 100%;
         /*background-color: teal;*/
         
-        padding-top: 5%;
+        /*padding-top: 5%;*/
         
         
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-    #pomègues{ margin-bottom: 45px;
-    padding-bottom: 5%;}
+    #pomègues{ margin-bottom: 25px;
+    /*padding-bottom: 5%;*/}
 #frioul{ padding-bottom: 1%;}
 #nd{padding-bottom: 1%;
     margin-bottom: 17px;}
@@ -1106,6 +1220,7 @@ margin-top:-1.3% ;
  .activitésvertical, .calanques, .vieuxport{width: 24%;
 height: 100%;}
  .pic1,.pic2{width: 100%;}
+
 
 
 
